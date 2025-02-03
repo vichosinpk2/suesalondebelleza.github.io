@@ -17,7 +17,7 @@
             background-color: #f9f9f9;
             padding: 20px;
             text-align: center;
-            border-bottom: 2px solid #ccc; /* Línea separadora bajo el encabezado */
+            border-bottom: 2px solid #ccc;
         }
         nav {
             background-color: #333;
@@ -31,40 +31,25 @@
             padding: 5px 10px;
             border-radius: 5px;
         }
-        .container {
-            max-width: 800px;
+        .logo img {
+            max-width: 150px;
+            max-height: 150px;
+            display: block;
             margin: 0 auto;
+        }
+        .about {
+            max-width: 800px;
+            margin: 20px auto;
             padding: 20px;
             background-color: rgba(255, 255, 255, 0.8);
             border-radius: 10px;
             box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-            margin-top: 20px;
+            text-align: center;
+        }
+        .about img {
+            max-width: 200px;
+            border-radius: 50%;
             margin-bottom: 20px;
-        }
-        section {
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            padding: 20px;
-            margin-bottom: 20px;
-        }
-        .contact-info,
-        .services,
-        .social-media {
-            text-align: left;
-        }
-        .instagram-photos {
-            margin-top: 40px;
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-        }
-        .instagram-photo {
-            margin: 10px;
-            max-width: 300px;
-        }
-        .logo img {
-            max-width: 100px;
-            max-height: 100px;
         }
         footer {
             background-color: #f9f9f9;
@@ -84,60 +69,25 @@
 <body>
     <header>
         <div class="logo">
-            <img src="https://i.ibb.co/T2Sqng6/image1.jpg" alt="Logo">
+            <img src="https://i.ibb.co/XkyXqvyf/logo-Sue.jpg" alt="Logo">
         </div>
         <h1>Salón de Belleza Sue</h1>
     </header>
     <nav>
-        <a href="#contact">Contacto</a>
-        <a href="#hairdressing">Peluquería</a>
-        <a href="#cosmetology">Cosmetología</a>
-        <a href="#social-media">Redes Sociales</a>
+        <a href="contacto.html" target="_blank">Contacto</a>
+        <a href="peluqueria.html" target="_blank">Peluquería</a>
+        <a href="cosmetologia.html" target="_blank">Cosmetología</a>
+        <a href="redes-sociales.html" target="_blank">Redes Sociales</a>
     </nav>
-    <div class="container" id="contact">
-        <section class="contact-info">
-            <h2>Contacto</h2>
-            <p>WhatsApp: <a href="https://wa.me/56985158556">+56985158556</a></p>
-            <p>Correo electrónico: <a href="mailto:summer.servicios@gmail.com">summer.servicios@gmail.com</a></p>
-            <p>Horarios de atención: 10:00 am - 2:00 pm y 4:00 pm - 8:00 pm</p>
-        </section>
-    </div>
-    <div class="container" id="hairdressing">
-        <section class="services">
-            <h2>Peluquería</h2>
-            <ul>
-                <li>Alizados</li>
-                <li>Babylight</li>
-                <li>Cortes</li>
-                <li>Tinturas</li>
-            </ul>
-        </section>
-    </div>
-    <div class="container" id="cosmetology">
-        <section class="services">
-            <h2>Cosmetología</h2>
-            <ul>
-                <li>Limpieza facial</li>
-                <li>Tratamientos de piel</li>
-                <li>Maquillaje profesional</li>
-                <li>Depilación</li>
-            </ul>
-        </section>
-    </div>
-    <div class="container" id="social-media">
-        <section class="social-media">
-            <h2>Redes Sociales</h2>
-            <div class="instagram-photos">
-                <img src="https://i.ibb.co/f1BcLFH/image2.jpg" alt="Foto de Instagram" class="instagram-photo">
-                <img src="https://i.ibb.co/H2LbrLF/image3.jpg" alt="Foto de Instagram" class="instagram-photo">
-            </div>
-        </section>
+    <div class="about">
+        <img src="https://i.ibb.co/39Q6Q6HV/foto-perfil.jpg" alt="Sue Ellen Rybertt Fuster">
+        <h2>¿Quiénes Somos?</h2>
+        <p>Soy Sue Ellen Rybertt Fuster, estilista y cosmetóloga de profesión, con más de 20 años de trayectoria. Actualmente, tengo mi propio salón, ubicado en la Ciudad de la Cruz, en la 5ª región.</p>
+        <p>Cosmetología en el instituto Amalia Braniff, y capacitaciones en el instituto Levinia Manfredini y en Dr. Fontboté.</p>
+        <p>Estilista en el instituto Pichara y capacitaciones en diversos institutos.</p>
     </div>
     <footer class="container">
         <img src="https://i.ibb.co/CVmV98p/footer-image.jpg" alt="Pie de página">
     </footer>
 </body>
 </html>
-
-
-
